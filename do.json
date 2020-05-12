@@ -1,0 +1,6 @@
+{
+	"name":"do",
+	"pythonFile":true,
+	"file":"do.py",
+	"description":"This script will execute commands related with an name (order), this commands will be stored in a file called do.json in the current working directory, in case this file doesn't exist, it will raise an exception."
+}
