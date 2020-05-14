@@ -1,0 +1,4 @@
+echo "Installing plugins..."
+install do.json
+install tree.json
+

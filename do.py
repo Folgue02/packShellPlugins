@@ -77,9 +77,10 @@ if "--check" in pars:
 if __file__ in pars:
 	del pars[pars.index(__file__)]
 
-
-main()
-
+try:
+	main()
+except Exception as e:
+	print(f"An error has occurred ({type(e)}): {e}")
 
 		
 
